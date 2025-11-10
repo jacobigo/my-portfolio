@@ -73,7 +73,7 @@ width: 150vh;
 
 
 .skills-wrap{display:flex;flex-wrap:wrap;gap:10px}
-.skill-pill{background:var(--glass);padding:8px 10px;border-radius:999px;font-weight:600;color:var(--muted)}
+.skill-pill{font-size: large;background:var(--glass);padding:8px 10px;border-radius:999px;font-weight:600;color:var(--muted)}
 
 
 .footer{padding:20px;border-top:1px solid rgba(255,255,255,0.02);margin-top:30px}

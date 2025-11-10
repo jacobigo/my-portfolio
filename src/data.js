@@ -37,5 +37,4 @@ export const skills = [
 'Numpy',
 'Pandas',
 'Huggingface',
-'NLP'
 ];

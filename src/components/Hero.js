@@ -2,7 +2,7 @@ export default function Hero() {
 return (
 <section id="home" className="hero">
 <div className="hero-inner">
-<img className="avatar" src="./IMG_5522.jpg" alt="Profile" />
+<img className="avatar" src="/public/IMG_5522.jpg" alt="Profile" />
 <div className="hero-text">
 <h1>Hi — I'm Jacob.</h1>
 <p>Software Engineer, Machine Learning researcher, and Student. I like to build predictive models that can be used in end-to-end applications, or anything that I think is helpful/interesting.</p>

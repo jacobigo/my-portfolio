@@ -19,6 +19,13 @@ title: 'Supply Chain Routing Tool',
 image: `${process.env.PUBLIC_URL}/carbon_image.png`,
 description: 'Calculates most efficient route based on carbon output; made with Neo4j, Networkx, and MapBox GL.',
 github: 'https://github.com/jacobigo/carbon'
+},
+{
+id: 4,
+title: 'College Football Ranking System',
+image: `${process.env.PUBLIC_URL}/Auburn_vs_Georgia.png`,
+description: 'Uses advanced ELO & regularization to determine rankings for teams, can visualize & compare teams\' game history',
+github: 'https://github.com/jacobigo/cfb'
 }
 ];
 

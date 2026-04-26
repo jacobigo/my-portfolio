@@ -4,7 +4,7 @@ id: 1,
 title: 'Card Counting CV',
 image: `${process.env.PUBLIC_URL}/card_image.png`,
 description: 'Computer vision pipeline that detects and counts playing cards using a YOLO-based detector and OpenCV overlay.',
-github: 'https://github.com/jacobigo/card-counter-ml'
+github: 'https://github.com/jacobigo/card-counting-ml'
 },
 {
 id: 2,
@@ -29,6 +29,33 @@ github: 'https://github.com/jacobigo/cfb'
 }
 ];
 
+export const internships = [
+{
+id: 1,
+role: 'Software Engineering Intern',
+company: 'FOX Sports',
+period: 'Spring 2026, Summer 2026',
+description: 'Developed ML stream identification system and dashboard using OpenCLIP and P-Hash, hosted on an NVIDIA DGX Spark with Docker.\n\n Achieved 94% recognition accuracy (mAP) with 8x potential scalability.',
+link: 'https://www.linkedin.com/in/jacob-igo/'
+},
+{
+id: 2,
+role: 'Research and Development Intern',
+company: 'Infosys',
+period: 'Summer 2025',
+description: 'Created various POCs for external clients, flew out to Indianapolis for product pitch and live demo. Gained profiency with Huggingface, RAG, Neo4j, and more.',
+link: 'https://www.linkedin.com/in/jacob-igo/'
+},
+{
+id: 3,
+role: 'Machine Learning Researcher',
+company: 'Paragon Autonomous',
+period: 'Fall 2024 - Fall 2025',
+description: 'Worked for student-led startup on autonomous firefighting drones. Focused on LiDAR and image processing with vector database to perform semantic segmentation. Used ChromaDB, GCP VM, OpenCV, ROS2',
+link: 'https://www.linkedin.com/in/jacob-igo/'
+}
+];
+
 export const skills = [
 'Python',
 'C++',
@@ -43,4 +70,6 @@ export const skills = [
 'Numpy',
 'Pandas',
 'Huggingface',
+'GCP',
+'AWS'
 ];

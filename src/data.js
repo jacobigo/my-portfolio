@@ -35,23 +35,23 @@ id: 1,
 role: 'Software Engineering Intern',
 company: 'FOX Sports',
 period: 'Spring 2026, Summer 2026',
-description: 'Developed ML stream identification system and dashboard using OpenCLIP and P-Hash, hosted on an NVIDIA DGX Spark with Docker.\n\n Achieved 94% recognition accuracy (mAP) with 8x potential scalability.',
+description: 'Developed ML stream identification system and dashboard using OpenCLIP and P-Hash, hosted on an NVIDIA DGX Spark with Docker.\n\n Achieved 89% F1 score with 8x potential scalability.',
 link: 'https://www.linkedin.com/in/jacob-igo/'
 },
 {
 id: 2,
-role: 'Research and Development Intern',
-company: 'Infosys',
-period: 'Summer 2025',
-description: 'Created various POCs for external clients, flew out to Indianapolis for product pitch and live demo. Gained profiency with Huggingface, RAG, Neo4j, and more.',
+role: 'Machine Learning Researcher',
+company: 'Paragon Autonomous',
+period: 'Fall 2024 - Fall 2025',
+description: 'Worked for student-led startup on autonomous firefighting drones. Focused on LiDAR and image fusion to perform semantic segmentation. Used PyTorch, GCP VM, OpenCV, ROS2',
 link: 'https://www.linkedin.com/in/jacob-igo/'
 },
 {
 id: 3,
-role: 'Machine Learning Researcher',
-company: 'Paragon Autonomous',
-period: 'Fall 2024 - Fall 2025',
-description: 'Worked for student-led startup on autonomous firefighting drones. Focused on LiDAR and image processing with vector database to perform semantic segmentation. Used ChromaDB, GCP VM, OpenCV, ROS2',
+role: 'Research and Development Intern',
+company: 'Infosys',
+period: 'Summer 2025',
+description: 'Created various POCs for external clients, flew out to Indianapolis for product pitch and live demo. Gained profiency with Huggingface, RAG, Neo4j, and more.',
 link: 'https://www.linkedin.com/in/jacob-igo/'
 }
 ];

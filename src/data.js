@@ -1,24 +1,24 @@
 export const projects = [
 {
 id: 1,
+title: 'Perception with Waymo Dataset',
+image: `${process.env.PUBLIC_URL}/single_frame.png`,
+description: 'LiDAR-camera fusion pipeline for 3D semantic segmentation on the Waymo Open Dataset.',
+github: 'https://github.com/jacobigo/waymo_perception'
+},
+{
+id: 2,
 title: 'Card Counting CV',
 image: `${process.env.PUBLIC_URL}/card_image.png`,
 description: 'Computer vision pipeline that detects and counts playing cards using a YOLO-based detector and OpenCV overlay.',
 github: 'https://github.com/jacobigo/card-counting-ml'
 },
 {
-id: 2,
+id: 3,
 title: 'Instructional Agent Video Generation',
 image: `${process.env.PUBLIC_URL}/instruct_image.png`,
 description: 'Utilizes Instructional Agents\' output to generate online course lectures.',
 github: 'https://github.com/jacobigo/instruct_video_research'
-},
-{
-id: 3,
-title: 'Supply Chain Routing Tool',
-image: `${process.env.PUBLIC_URL}/carbon_image.png`,
-description: 'Calculates most efficient route based on carbon output; made with Neo4j, Networkx, and MapBox GL.',
-github: 'https://github.com/jacobigo/carbon'
 },
 {
 id: 4,

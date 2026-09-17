@@ -41,7 +41,7 @@ export const internships = [
 id: 1,
 role: 'Software Engineering Intern',
 company: 'FOX Sports',
-period: 'Spring 2026, Summer 2026',
+period: 'Spring 2026, Summer 2026, Fall 2026',
 description: 'Developed ML stream identification system and dashboard using OpenCLIP and P-Hash, hosted on an NVIDIA DGX Spark with Docker.\n\n Achieved 89% F1 score with 8x potential scalability.',
 link: 'https://www.linkedin.com/in/jacob-igo/'
 },

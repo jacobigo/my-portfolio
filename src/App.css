@@ -88,6 +88,9 @@ width: 100%;
 .internship-more-block .link{color:var(--accent);text-decoration:none;font-weight:600}
 
 
+.visitor-count{margin:14px 0 0;color:var(--muted);font-size:14px;text-align:right}
+
+
 .skills-wrap{display:flex;flex-wrap:wrap;gap:10px}
 .skill-pill{font-size: large;background:var(--glass);padding:8px 10px;border-radius:999px;font-weight:600;color:var(--muted)}
 

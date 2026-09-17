@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Internships from './components/Internships';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import VisitorCount from './components/VisitorCount';
 import { projects, internships, skills } from './data';
 
 
@@ -24,6 +25,7 @@ return (
 <section id="internships">
 <h2 className="section-title">Internships</h2>
 <Internships items={internships} />
+<VisitorCount />
 </section>
 </div>
 

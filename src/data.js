@@ -2,8 +2,9 @@ export const projects = [
 {
 id: 5,
 title: 'Autonomous Golf Cart',
+tag: 'MS Thesis',
 image: `${process.env.PUBLIC_URL}/golfcart_card.jpg`,
-description: 'Drive-by-wire retrofit of a Yamaha G22E into a low-cost research platform for sim-to-real autonomy, with ROS 2, a Teensy 4.1 safety layer, and three tested failsafes. MS thesis, in progress.',
+description: 'Drive-by-wire retrofit of a Yamaha G22E into a low-cost ROS 2 research platform for sim-to-real autonomy.',
 site: 'https://jacobigo.github.io/autonomous-golf-cart/'
 },
 {

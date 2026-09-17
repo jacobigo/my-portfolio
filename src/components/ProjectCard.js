@@ -8,6 +8,7 @@ return (
 <img src={project.image} alt={project.title} />
 </div>
 <div className="card-body">
+{project.tag && <span className="card-tag">{project.tag}</span>}
 <h3>{project.title}</h3>
 <p className="muted">{project.description}</p>
 <div className="card-actions">

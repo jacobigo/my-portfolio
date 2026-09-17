@@ -11,7 +11,12 @@ return (
 <h3>{project.title}</h3>
 <p className="muted">{project.description}</p>
 <div className="card-actions">
+{project.site && (
+<a className="link" href={project.site} target="_blank" rel="noreferrer">View project page</a>
+)}
+{project.github && (
 <a className="link" href={project.github} target="_blank" rel="noreferrer">View on GitHub</a>
+)}
 </div>
 </div>
 </article>

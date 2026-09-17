@@ -75,6 +75,7 @@ width: 100%;
 .card-body{font-size: larger;padding:14px}
 .card-body h3{font-size: larger;margin:0 0 6px;}
 .muted{color:var(--muted);font-size:18px;margin-bottom:12px}
+.card-actions{display:flex;flex-wrap:wrap;gap:16px}
 .card-actions .link{color:var(--accent);text-decoration:none;font-weight:600}
 
 

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 
-// GoatCounter site code. Empty means the counter renders nothing, so this is
-// safe to deploy before the account exists. Requires "Allow adding visitor
-// counts on your website" in the GoatCounter site settings.
-const SITE = '';
+// GoatCounter site code. Empty means the counter renders nothing. Reading the
+// count also needs "allow using the visitor counter" enabled in the GoatCounter
+// site settings, otherwise the endpoint returns 403 and nothing renders.
+const SITE = 'jacobigo';
 const PATH = '/my-portfolio/';
-const SINCE = '';        // e.g. 'September 2026'
+const SINCE = 'September 2026';
 const MIN_VISITS = 50;   // stay hidden until the number is worth showing
 
 
